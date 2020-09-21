@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Container, } from "semantic-ui-react";
 import Menu from "./components/Menu";
@@ -13,7 +12,7 @@ function App() {
 
       <Container>
         <h1>Restaurant Menu</h1>
-        <Menu />
+        <Menu items={items}/>
       </Container>
 
   );
