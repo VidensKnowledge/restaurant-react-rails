@@ -8,13 +8,13 @@ class Menu extends React.Component  {
         <Item
         key= {item.id}
         {...item}
-        deleteTodo={this.props.deleteItem}
-        updatetodo={this.props.updateItem}
+        deleteItem={this.props.deleteItem}
+        updateItem={this.props.updateItem}
         />
       )
     })
   }
-  
+
   render() {
     return (
       <div>
@@ -29,5 +29,5 @@ class Menu extends React.Component  {
   // </div>
 
 
-export default Menu
+export default Menu;
 

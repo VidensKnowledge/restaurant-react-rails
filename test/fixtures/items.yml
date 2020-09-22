@@ -3,11 +3,9 @@
 one:
   name: MyString
   description: MyString
-  price: 1.5
-  menu: one
+  price: MyString
 
 two:
   name: MyString
   description: MyString
-  price: 1.5
-  menu: two
+  price: MyString
